@@ -59,12 +59,6 @@ td, th {
 tr:nth-child(even) {
   background-color: transparent;
 }
-    #square {
-      width: 100px;
-      height: 100px;
-      background-color: red;
-      position: relative;
-    }
 	</style>
 </head>
 	<title> EndrrNation Demon List </title>
@@ -177,31 +171,5 @@ tr:nth-child(even) {
    				    <audio autoplay>
 	<source src="ddd.mp3" type="audio/mpeg">
 				    </audio>
-  <div id="square"></div>
-  <button onclick="moveLeft()">Move Left</button>
-  <button onclick="moveRight()">Move Right</button>
-  <button onclick="moveUp()">Move Up</button>
-  <button onclick="moveDown()">Move Down</button>
-  <script>
-    function moveLeft() {
-      var square = document.getElementById("square");
-      square.style.left = square.offsetLeft - 100 + "px";
-    }
-
-    function moveRight() {
-      var square = document.getElementById("square");
-      square.style.left = square.offsetLeft + 100 + "px";
-    }
-
-    function moveUp() {
-      var square = document.getElementById("square");
-      square.style.top = square.offsetTop - 100 + "px";
-    }
-
-    function moveDown() {
-      var square = document.getElementById("square");
-      square.style.top = square.offsetTop + 100 + "px";
-    }
-  </script>
 		</body>
 		</html>
